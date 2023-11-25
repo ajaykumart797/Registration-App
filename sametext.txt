@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "title": "putCompanySolutionInput",
+  "properties": {
+    "keyDeploymentConsiderationHTML": {
+      "bsonType": "string"
+    },
+    "solutionTitle": {
+      "bsonType": "string"
+    },
+    "companyID": {
+      "bsonType": "int"
+    },
+    "companyLogo": {
+      "bsonType": "string"
+    },
+    "companyName": {
+      "bsonType": "string"
+    },
+    "active": {
+      "bsonType": "string"
+    },
+    "isSolutionNameActive": {
+      "bsonType": "string"
+    },
+    "is_deleted": {
+      "bsonType": "string"
+    },
+    "solutionName": {
+      "bsonType": "string"
+    },
+    "solution": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "companyID"
+  ]
+}

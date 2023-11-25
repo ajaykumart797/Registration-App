@@ -18,12 +18,12 @@ tools  {
     }
      stage('build application'){
        steps{
-           ssh 'mvn clean package'
+           sh 'mvn clean package'
        }
     }
      stage('testapplication'){
        steps{
-           ssh 'mvn test'
+           sh 'mvn test'
        }
     }
 }

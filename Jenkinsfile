@@ -26,5 +26,13 @@ tools  {
            sh 'mvn test'
        }
     }
+     stage('sonar qube '){
+       steps{
+           script{
+              withSonarQubeEnv(credentialsId: '647f1197-6c6f-4134-a65d-479a2cc6aae2') {
+              sh "mvn sonar: sonar"
+            
+       }
+    }
 }
 }
